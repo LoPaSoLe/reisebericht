@@ -32,7 +32,7 @@
    line-height: 30px;
  }
  body{
-   background-color: #008200;
+   background-color: #A8FFA3;
    font-family: 'Indie Flower', cursive;
 
  }
@@ -85,4 +85,5 @@ img{
   width: 100%;
   margin: 20px 20px 20px 20px;
   border: 6px solid black;
+  text-align: center;
 }
