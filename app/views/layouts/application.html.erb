@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="https://fonts.googleapis.com/css?family=Crimson+Text|Indie+Flower" rel="stylesheet">
+    <title>R1 Europaradweg</title>
+    <%= csrf_meta_tags %>
+
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+  </head>
+
+  <body>
+    <div>
+      <h1>R1</h1>
+      <nav>
+        <%=link_to "Home", root_path%>
+        <%= link_to "Die Strecke", pages_range_path%>
+        <%= link_to "Auf 16 Zoll Rädern durch Europa - ein Reisebericht", pages_travel_path%>
+        <%= link_to "Tipps", pages_tipps_path%>
+        <%= link_to "Ausblick", pages_outlook_path%>
+    <%= yield %>
+  </div>
+  </body>
+</html>

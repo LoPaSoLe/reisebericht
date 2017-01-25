@@ -1,0 +1,88 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+ h1{
+   color:#820000;
+   font-size: 100px;
+   font-family: 'Crimson Text', serif;
+   font-style: bold italic;
+   margin: auto;
+   padding: 30px 0px 30px 0px;
+   border: 8px double black;
+   text-align: center;
+ }
+ h2{
+   color:#820000;
+   font-size: 35px;
+   font-family: 'Crimson Text', serif;
+   font-style: bold italic;
+   text-decoration: underline;
+   line-height: 30px;
+ }
+ body{
+   background-color: #008200;
+   font-family: 'Indie Flower', cursive;
+
+ }
+ div{
+   width: 50%;
+   margin:15px auto 30px auto;
+ }
+p{
+  font-family: 'Indie Flower', cursive;
+  font-size: 40px;
+  color: #820000;
+  text-shadow: 5px 10px 8px black;
+  line-height: 30px;
+
+}
+ul{
+  font-family: 'Indie Flower', cursive;
+  font-size: 25px;
+  color: #1F1E1E;
+  text-align: left;
+  line-height: 30px;
+}
+li{
+  margin:20px 0px 20px 0px;
+  padding: 10px 0 5px 0;
+}
+nav{
+  text-align: center;
+  padding:15px 15px 15px 15px;
+  font-size: 20px;
+  line-height: 30px;
+}
+a:visited{
+  color:black;
+}
+a:hover{
+  color: #008200;
+}
+a{
+  margin: 5px 5px 5px 5px;
+}
+t{
+  font-family: 'Indie Flower', cursive;
+  font-size: 25px;
+  color: #1F1E1E;
+  text-align: left;
+  line-height: 30px;
+}
+img{
+  width: 100%;
+  margin: 20px 20px 20px 20px;
+  border: 6px solid black;
+}
