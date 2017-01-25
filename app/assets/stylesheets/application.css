@@ -32,13 +32,15 @@
    line-height: 30px;
  }
  body{
-   background-color: #A8FFA3;
-   font-family: 'Indie Flower', cursive;
 
+   font-family: 'Indie Flower', cursive;
+   background:url(Europakarte.jpg) round center center fixed;
+   padding:0;
  }
  div{
    width: 50%;
    margin:15px auto 30px auto;
+   background-color: #FFFFE2;
  }
 p{
   font-family: 'Indie Flower', cursive;
@@ -82,8 +84,8 @@ t{
   line-height: 30px;
 }
 img{
-  width: 100%;
-  margin: 20px 20px 20px 20px;
+  width: 80%;
+  margin: 30px 60px 30px 60px;
   border: 6px solid black;
   text-align: center;
 }
