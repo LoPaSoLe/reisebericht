@@ -12,7 +12,8 @@
 
 <p>
   <strong>Bilder:</strong>
-  <%= @country.pictures %>
+  <%#= @country.pictures %>
+  <%= image_tag(@country.pictures_url, width: 600) if @country.pictures.present? %>
 </p>
 
 <%= link_to 'Edit', edit_country_path(@country) %> |

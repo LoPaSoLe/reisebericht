@@ -37,6 +37,51 @@
    background:image-url("Europakarte.jpg") round center center fixed;
    padding:0;
  }
+ footer{
+   margin-top: 50px;
+   font-size: 25px;
+   color: #820000;
+   text-align: center;
+   line-height: 30px;
+   margin-bottom: 40px;
+ }
+ label,input{
+   display: block;
+   font-family: 'Indie Flower', cursive;
+   font-size: 25px;
+   color: #1F1E1E;
+ }
+ input{
+   line-height: 50px;
+   width: 100%;
+   font-size: 20px;
+   margin-bottom: 30px;
+ }
+ input[type=submit]{
+   border: 6px solid #820000;
+   padding:5px 5px;
+   border-radius:15px;
+   color:#820000;
+   font-size: 20px ;
+   background-color: inherit;
+   padding: 10px 10px 10px 10px;
+ }
+ input[type=submit]:hover{
+   background-color: #820000;
+   border-color: #FFFFE2;
+   color: #FFFFE2;
+ }
+ input[type=checkbox]{
+     margin: 15px auto 30px auto;
+     width: auto;
+ }
+ textarea{
+   width: 100%;
+   padding-bottom: 60px;
+   font-size: 15px;
+   margin-bottom: 30px;
+ }
+
  div{
    width: 50%;
    margin:15px auto 30px auto;

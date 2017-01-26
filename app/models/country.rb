@@ -1,3 +1,3 @@
 class Country < ApplicationRecord
-  mount_uploader :picture, PictureUploader
+  mount_uploader :pictures, PictureUploader
 end

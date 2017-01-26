@@ -20,5 +20,20 @@
         <%= link_to "Ausblick", pages_outlook_path%>
     <%= yield %>
   </div>
+  <footer>
+    <div class="container">
+      <h3>Kontakt<h3>
+
+      <label for="Betreff">Betreff</label>
+      <input type="text" id="Betreff">
+      <label for="Nachricht">Nachricht</label>
+      <textarea id="Nachricht"> </textarea>
+      <label for="email">Meine Email-Adresse</label>
+      <input type="text" id="email">
+      <label for="Benachrichtigund">  Ich möchte eine Nachricht erhalten, wenn es Neues zum R1 gibt!</Label>
+      <input type="checkbox" id="Benachrichtigung">
+      <input type="submit" value="Senden">
+    </div>
+  </footer>
   </body>
 </html>
