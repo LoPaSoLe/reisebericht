@@ -1,31 +1,15 @@
 <p id="notice"><%= notice %></p>
 
 <h2>Länder</h2>
-
-<table>
-  <thead>
-    <tr>
-      <th>Land</th>
-      <th>Beschreibung</th>
-      <th>Bild</th>
-      <th colspan="3"></th>
-    </tr>
-  </thead>
-
-  <tbody>
+<ul>
     <% @countries.each do |country| %>
-      <tr>
-        <td><%= country.name %></td>
-        <td><%= country.descriptions %></td>
-        <td><%= country.pictures %></td>
-        <td><%= link_to 'Show', country %></td>
-        <td><%= link_to 'Edit', edit_country_path(country) %></td>
-        <td><%= link_to 'Destroy', country, method: :delete, data: { confirm: 'Are you sure?' } %></td>
-      </tr>
-    <% end %>
-  </tbody>
-</table>
+    
+        <li><%= country.name %>
+        <%= link_to 'Show', country %>
+        <%= link_to 'Edit', edit_country_path(country) %>
+        <%= link_to 'Destroy', country, method: :delete, data: { confirm: 'Are you sure?' } %></li>
 
-<br>
+    <% end %>
+</ul>
 
 <%= link_to 'New Country', new_country_path %>
