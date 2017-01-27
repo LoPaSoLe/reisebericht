@@ -1,4 +1,5 @@
 class CountriesController < ApplicationController
+  http_basic_authenticate_with name: ENV['USER'], password: ENV['PASSWORD'], except: [:index,:show]
   before_action :set_country, only: [:show, :edit, :update, :destroy]
 
   # GET /countries
