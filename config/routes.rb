@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :contacts
   root 'pages#main'
   get 'pages/range'
   get 'pages/travel'

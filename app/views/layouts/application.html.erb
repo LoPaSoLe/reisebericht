@@ -24,16 +24,18 @@
   <footer>
     <div class="container">
       <h3>Kontakt<h3>
-
+      <%= form_for(@contact) do |f| %>
       <label for="Betreff">Betreff</label>
-      <input type="text" id="Betreff">
+        <%= f.text_field :header %>
       <label for="Nachricht">Nachricht</label>
-      <textarea id="Nachricht"> </textarea>
+          <%= f.text_field :body %>
       <label for="email">Meine Email-Adresse</label>
-      <input type="text" id="email">
-      <label for="Benachrichtigund">  Ich möchte eine Nachricht erhalten, wenn es Neues zum R1 gibt!</Label>
+        <%= f.text_field :email %>
+      <!--< label for="Benachrichtigund">  Ich möchte eine Nachricht erhalten, wenn es Neues zum R1 gibt!</Label>
       <input type="checkbox" id="Benachrichtigung">
-      <input type="submit" value="Senden">
+      <input type="submit" value="Senden">-->
+        <%= f.submit "Senden" %>
+      <% end %>
     </div>
   </footer>
   </body>
