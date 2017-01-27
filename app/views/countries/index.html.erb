@@ -6,10 +6,10 @@
 
         <li><span style="font-size:50px;color:#1F1E1E;"><%= link_to country.name , country %></span>
 
-        <span style="font-size:10px;"><%= link_to 'Edit', edit_country_path(country) %>
-        <%= link_to 'Destroy', country, method: :delete, data: { confirm: 'Are you sure?' } %></span></li>
+        <span style="font-size:10px;"><%= link_to 'Bearbeiten', edit_country_path(country) %>
+        <%= link_to 'Löschen', country, method: :delete, data: { confirm: 'Are you sure?' } %></span></li>
 
     <% end %>
 </ul>
 
-<%= link_to 'New Country', new_country_path %>
+<%= link_to 'Neues Land', new_country_path %>
